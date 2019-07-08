@@ -19,7 +19,7 @@ from getmedia import get_hd_media
 def get_reddit_posts(subreddit_info):
     post_dict = {}
     print('[ OK ] Getting posts from Reddit...')
-    for submission in subreddit_info.hot(limit=POST_LIMIT):
+    for submission in subreddit_info.new(limit=POST_LIMIT):
         if (submission.over_18 and NSFW_POSTS_ALLOWED is False):
             # Skip over NSFW posts if they are disabled in the config file
             print('[ OK ] Skipping', submission.id, 'because it is marked as NSFW')
