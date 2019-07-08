@@ -1,7 +1,7 @@
 {
     "name": "Tootbot",
     "description": "Python tool for mirroring Reddit posts to Twitter and Mastodon",
-    "repository": "https://github.com/corbindavenport/tootbot",
+    "repository": "https://github.com/rbnsk/tootbot",
     "keywords": [
         "tootbot",
         "reddit",
